@@ -1,0 +1,43 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Bonjour",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "salut ",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "bonsoir",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "coucou",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "cc",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "je veux commader du matériels",
+        "intent": "create_order",
+        "entities": []
+      },
+      {
+        "text": "je veux du matériels ",
+        "intent": "create_order",
+        "entities": []
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
