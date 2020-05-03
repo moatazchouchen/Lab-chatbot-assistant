@@ -27,12 +27,32 @@
         "entities": []
       },
       {
-        "text": "je veux commader du matériels",
+        "text": "je veux commander du matériels",
         "intent": "create_order",
         "entities": []
       },
       {
         "text": "je veux du matériels ",
+        "intent": "create_order",
+        "entities": []
+      },
+      {
+        "text": "est ce que je peux commander du matériel?",
+        "intent": "create_order",
+        "entities": []
+      },
+      {
+        "text": "je veux effectuer une commande de matériels ",
+        "intent": "create_order",
+        "entities": []
+      },
+      {
+        "text": "est ce que je peux commander du matériels ?",
+        "intent": "create_order",
+        "entities": []
+      },
+      {
+        "text": "est ce que le matériels est disponible ?",
         "intent": "create_order",
         "entities": []
       }

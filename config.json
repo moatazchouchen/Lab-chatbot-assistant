@@ -1,0 +1,6 @@
+{
+ "language": "fr",
+ "pipeline":"supervised_embeddings",
+ "path":"./models/nlu",
+ "data":"./data/data.json"
+}

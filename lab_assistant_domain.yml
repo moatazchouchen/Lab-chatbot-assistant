@@ -1,0 +1,36 @@
+slots:
+ list_materiel_commandes:
+ type: list
+ DD:
+ Nom_prof: text
+ jour:
+ type: text
+ mois:
+ type: text
+ annee:
+ type: text
+intents:
+  greeting
+  create_order
+  
+entities:
+  list_materiel_commandes
+  Nom_prof
+  jour
+  mois
+  annee
+templates:
+ utter_greet:
+  'Bonjour comment je peux vous aider'
+ utter_ask_user_to_order_matierals:
+  'que voulez vous commander?'
+ utter_bye:
+  'heureux de vous aider'
+ utter_default:
+  'désolé j ai pas compris vous pouvez repeter svp?'
+actions:
+  utter_greet
+  utter_ask_user_to_order_matierals
+  utter_bye
+  utter_default
+  envoyer_ordre
